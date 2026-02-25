@@ -10,7 +10,7 @@ endif
 
 let colors_name = 'flattened_light'
 
-hi Normal                                  cterm=NONE  ctermfg=11  ctermbg=15  guifg=#657b83  guibg=#eee8d5  gui=NONE
+hi Normal                                  cterm=NONE  ctermfg=11  ctermbg=15  guifg=#073642  guibg=#eee8d5  gui=NONE
 
 set background=light
 
@@ -30,8 +30,8 @@ hi DiffText                                cterm=NONE  ctermfg=4  ctermbg=7  gui
 hi Directory                               cterm=NONE  ctermfg=4  guifg=#268bd2  gui=NONE
 hi Error                                   cterm=NONE  ctermfg=1  ctermbg=NONE  guifg=#dc322f  guibg=#eee8d5  gui=NONE
 hi ErrorMsg                                cterm=reverse  ctermfg=1  ctermbg=NONE guifg=#dc322f  guibg=NONE gui=reverse
-hi FoldColumn                              cterm=NONE  ctermfg=11  ctermbg=7  guifg=#657b83  guibg=#eee8d5  gui=NONE
-hi Folded                                  cterm=NONE,underline  ctermfg=11  ctermbg=7  guifg=#657b83  guibg=#eee8d5  guisp=#eee8d5  gui=NONE
+hi FoldColumn                              cterm=NONE  ctermfg=11  ctermbg=7  guifg=#073642  guibg=#eee8d5  gui=NONE
+hi Folded                                  cterm=NONE,underline  ctermfg=11  ctermbg=7  guifg=#073642  guibg=#eee8d5  guisp=#eee8d5  gui=NONE
 hi HelpExample                             cterm=NONE  ctermfg=10  guifg=#586e75  gui=NONE
 hi Identifier                              cterm=NONE  ctermfg=4  guifg=#268bd2  gui=NONE
 hi IncSearch                               cterm=standout  ctermfg=9  gui=standout  guifg=#cb4b16
@@ -47,7 +47,7 @@ hi PmenuThumb                              cterm=reverse  ctermfg=11  ctermbg=15
 hi PreProc                                 cterm=NONE  ctermfg=9  guifg=#cb4b16  gui=NONE
 hi Question                                cterm=NONE  ctermfg=6  gui=NONE  guifg=#2aa198  gui=NONE
 hi Search                                  cterm=reverse  ctermfg=3  ctermbg=NONE  guifg=#b58900  guibg=NONE gui=reverse
-hi SignColumn                              cterm=NONE  ctermfg=11  ctermbg=NONE  guifg=#657b83  guibg=NONE  gui=NONE
+hi SignColumn                              cterm=NONE  ctermfg=11  ctermbg=NONE  guifg=#073642  guibg=NONE  gui=NONE
 hi Special                                 cterm=NONE  ctermfg=1  guifg=#dc322f  gui=NONE
 hi SpecialKey                              cterm=NONE  ctermfg=12  ctermbg=7  gui=NONE  guifg=#839496  guibg=#eee8d5  gui=NONE
 hi SpellBad                                cterm=undercurl ctermfg=NONE  ctermbg=NONE  gui=undercurl  guisp=#dc322f
@@ -57,8 +57,8 @@ hi SpellRare                               cterm=undercurl  ctermfg=NONE  ctermb
 hi Statement                               cterm=NONE  ctermfg=2  guifg=#719e07  gui=NONE
 hi StatusLine                              cterm=reverse  ctermfg=10  ctermbg=7  gui=reverse  guifg=#586e75  guibg=#eee8d5  guibg=NONE
 hi StatusLineNC                            cterm=reverse  ctermfg=12  ctermbg=7  gui=reverse  guifg=#839496  guibg=#eee8d5  guibg=NONE
-hi TabLine                                 cterm=underline  ctermfg=11  ctermbg=7  gui=underline  guifg=#657b83  guibg=#eee8d5  guisp=#657b83
-hi TabLineFill                             cterm=underline  ctermfg=11  ctermbg=7  gui=underline  guifg=#657b83  guibg=#eee8d5  guisp=#657b83
+hi TabLine                                 cterm=underline  ctermfg=11  ctermbg=7  gui=underline  guifg=#073642  guibg=#eee8d5  guisp=#657b83
+hi TabLineFill                             cterm=underline  ctermfg=11  ctermbg=7  gui=underline  guifg=#073642  guibg=#eee8d5  guisp=#657b83
 hi TabLineSel                              cterm=underline,reverse  ctermfg=14  ctermbg=0  gui=underline,reverse  guifg=#93a1a1  guibg=#073642  guisp=#657b83
 hi Title                                   cterm=NONE  ctermfg=9  guifg=#cb4b16  gui=NONE
 hi Todo                                    cterm=bold  ctermfg=5  ctermbg=15  guifg=#d33682  guibg=NONE gui=bold
@@ -75,7 +75,7 @@ hi gitcommitBranch                         cterm=NONE  ctermfg=5  gui=NONE  guif
 hi gitcommitComment                        cterm=NONE  ctermfg=14  gui=italic  guifg=#93a1a1  gui=NONE
 hi gitcommitDiscardedFile                  cterm=NONE  ctermfg=1  gui=NONE  guifg=#dc322f  gui=NONE
 hi gitcommitDiscardedType                  cterm=NONE  ctermfg=1  guifg=#dc322f  gui=NONE
-hi gitcommitFile                           cterm=NONE  ctermfg=11  gui=NONE  guifg=#657b83  gui=NONE
+hi gitcommitFile                           cterm=NONE  ctermfg=11  gui=NONE  guifg=#073642  gui=NONE
 hi gitcommitHeader                         cterm=NONE  ctermfg=14  guifg=#93a1a1  gui=NONE
 hi gitcommitOnBranch                       cterm=NONE  ctermfg=14  gui=NONE  guifg=#93a1a1  gui=NONE
 hi gitcommitSelectedFile                   cterm=NONE  ctermfg=2  gui=NONE  guifg=#719e07  gui=NONE
@@ -113,7 +113,7 @@ hi pandocBlockQuoteLeader1                 cterm=NONE  ctermfg=4  guifg=#268bd2 
 hi pandocBlockQuoteLeader2                 cterm=NONE  ctermfg=6  guifg=#2aa198  gui=NONE
 hi pandocBlockQuoteLeader3                 cterm=NONE  ctermfg=3  guifg=#b58900  gui=NONE
 hi pandocBlockQuoteLeader4                 cterm=NONE  ctermfg=1  guifg=#dc322f  gui=NONE
-hi pandocBlockQuoteLeader5                 cterm=NONE  ctermfg=11  guifg=#657b83  gui=NONE
+hi pandocBlockQuoteLeader5                 cterm=NONE  ctermfg=11  guifg=#073642  gui=NONE
 hi pandocBlockQuoteLeader6                 cterm=NONE  ctermfg=14  guifg=#93a1a1  gui=NONE
 hi pandocCitation                          cterm=NONE  ctermfg=5  guifg=#d33682  gui=NONE
 hi pandocCitationDelim                     cterm=NONE  ctermfg=5  guifg=#d33682  gui=NONE
@@ -123,10 +123,10 @@ hi pandocComment                           cterm=NONE  ctermfg=14  gui=italic  g
 hi pandocDefinitionBlock                   cterm=NONE  ctermfg=13  guifg=#6c71c4  gui=NONE
 hi pandocDefinitionIndctr                  cterm=NONE  ctermfg=13  gui=NONE  guifg=#6c71c4  gui=NONE
 hi pandocDefinitionTerm                    cterm=standout  ctermfg=13  gui=standout  guifg=#6c71c4
-hi pandocEmphasis                          cterm=NONE  ctermfg=11  gui=italic  guifg=#657b83  gui=NONE
+hi pandocEmphasis                          cterm=NONE  ctermfg=11  gui=italic  guifg=#073642  gui=NONE
 hi pandocEmphasisDefinition                cterm=NONE  ctermfg=13  gui=italic  guifg=#6c71c4  gui=NONE
 hi pandocEmphasisHeading                   cterm=NONE  ctermfg=9  gui=NONE  guifg=#cb4b16  gui=NONE
-hi pandocEmphasisNested                    cterm=NONE  ctermfg=11  gui=NONE  guifg=#657b83  gui=NONE
+hi pandocEmphasisNested                    cterm=NONE  ctermfg=11  gui=NONE  guifg=#073642  gui=NONE
 hi pandocEmphasisNestedDefinition          cterm=NONE  ctermfg=13  gui=NONE  guifg=#6c71c4  gui=NONE
 hi pandocEmphasisNestedHeading             cterm=NONE  ctermfg=9  gui=NONE  guifg=#cb4b16  gui=NONE
 hi pandocEmphasisNestedTable               cterm=NONE  ctermfg=4  gui=NONE  guifg=#268bd2  gui=NONE
@@ -159,14 +159,14 @@ hi pandocStrikeout                         cterm=reverse  ctermfg=14  ctermbg=NO
 hi pandocStrikeoutDefinition               cterm=reverse  ctermfg=13  ctermbg=NONE  gui=reverse  guifg=#6c71c4  guibg=NONE
 hi pandocStrikeoutHeading                  cterm=reverse  ctermfg=9  ctermbg=NONE  gui=reverse  guifg=#cb4b16  guibg=NONE
 hi pandocStrikeoutTable                    cterm=reverse  ctermfg=4  ctermbg=NONE  gui=reverse  guifg=#268bd2  guibg=NONE
-hi pandocStrongEmphasis                    cterm=NONE  ctermfg=11  gui=NONE  guifg=#657b83  gui=NONE
+hi pandocStrongEmphasis                    cterm=NONE  ctermfg=11  gui=NONE  guifg=#073642  gui=NONE
 hi pandocStrongEmphasisDefinition          cterm=NONE  ctermfg=13  gui=NONE  guifg=#6c71c4  gui=NONE
-hi pandocStrongEmphasisEmphasis            cterm=NONE  ctermfg=11  gui=NONE  guifg=#657b83  gui=NONE
+hi pandocStrongEmphasisEmphasis            cterm=NONE  ctermfg=11  gui=NONE  guifg=#073642  gui=NONE
 hi pandocStrongEmphasisEmphasisDefinition  cterm=NONE  ctermfg=13  gui=NONE  guifg=#6c71c4  gui=NONE
 hi pandocStrongEmphasisEmphasisHeading     cterm=NONE  ctermfg=9  gui=NONE  guifg=#cb4b16  gui=NONE
 hi pandocStrongEmphasisEmphasisTable       cterm=NONE  ctermfg=4  gui=NONE  guifg=#268bd2  gui=NONE
 hi pandocStrongEmphasisHeading             cterm=NONE  ctermfg=9  gui=NONE  guifg=#cb4b16  gui=NONE
-hi pandocStrongEmphasisNested              cterm=NONE  ctermfg=11  gui=NONE  guifg=#657b83  gui=NONE
+hi pandocStrongEmphasisNested              cterm=NONE  ctermfg=11  gui=NONE  guifg=#073642  gui=NONE
 hi pandocStrongEmphasisNestedDefinition    cterm=NONE  ctermfg=13  gui=NONE  guifg=#6c71c4  gui=NONE
 hi pandocStrongEmphasisNestedHeading       cterm=NONE  ctermfg=9  gui=NONE  guifg=#cb4b16  gui=NONE
 hi pandocStrongEmphasisNestedTable         cterm=NONE  ctermfg=4  gui=NONE  guifg=#268bd2  gui=NONE
