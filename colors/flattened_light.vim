@@ -31,7 +31,7 @@ hi Directory                               cterm=NONE  ctermfg=4  guifg=#268bd2 
 hi Error                                   cterm=NONE  ctermfg=1  ctermbg=NONE  guifg=#dc322f  guibg=#eee8d5  gui=NONE
 hi ErrorMsg                                cterm=reverse  ctermfg=1  ctermbg=NONE guifg=#dc322f  guibg=NONE gui=reverse
 hi FoldColumn                              cterm=NONE  ctermfg=11  ctermbg=7  guifg=#073642  guibg=#eee8d5  gui=NONE
-hi Folded                                  cterm=NONE,underline  ctermfg=11  ctermbg=7  guifg=#073642  guibg=#eee8d5  guisp=#eee8d5  gui=NONE
+hi Folded                                  cterm=NONE,underline  ctermfg=11  ctermbg=7  guifg=#073642  guibg=#fdf6e3  guisp=#eee8d5  gui=NONE
 hi HelpExample                             cterm=NONE  ctermfg=10  guifg=#586e75  gui=NONE
 hi Identifier                              cterm=NONE  ctermfg=4  guifg=#268bd2  gui=NONE
 hi IncSearch                               cterm=standout  ctermfg=9  gui=standout  guifg=#cb4b16
